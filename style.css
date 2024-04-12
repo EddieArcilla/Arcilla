@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background: url(BG.jpg);
+    background-size: cover;
+}
+img{
+    margin-left: 3rem;
+}
+.navbar{
+    display: flex;
+    width: 100%;justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3rem;
+    color: beige;
+    transition: 1s ease;
+}
+li a:hover{
+    color: black;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 85px;
+    color: blue;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: blue;
+}
+.info a{
+text-decoration: none;
+color: blue;
+background: red;
+margin: 26px 0;
+padding: 10px 18px;
+border-radius: 10px;
+display: inline-block;
+transition: .4s ease;
+}
+.info a:hover{
+background: rgb(13, 182, 97);
+}
+.icons a{
+    text-decoration: none;
+    color: blue;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: blue;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: 4s ease;
+}
+.icons ion-icon{
+    color: rgb(47, 0, 255);
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
